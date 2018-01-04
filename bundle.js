@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "./portfolio/";
+/******/ 	__webpack_require__.p = "./";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 38);
@@ -24300,7 +24300,7 @@ var Navigation = exports.Navigation = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: "/" },
+            { to: "/portfolio/" },
             _react2.default.createElement(_image2.default, { img: 6 })
           )
         ),
@@ -24315,7 +24315,7 @@ var Navigation = exports.Navigation = function (_React$Component) {
               null,
               _react2.default.createElement(
                 _reactRouterDom.Link,
-                { className: "menu__link", to: "/" },
+                { className: "menu__link", to: "/portfolio/" },
                 "Cases studies"
               )
             ),
@@ -24324,7 +24324,7 @@ var Navigation = exports.Navigation = function (_React$Component) {
               null,
               _react2.default.createElement(
                 _reactRouterDom.Link,
-                { className: "menu__link", to: "/about" },
+                { className: "menu__link", to: "/portfolio/about" },
                 "About me"
               )
             )
@@ -24638,15 +24638,15 @@ var PreviewCase = exports.PreviewCase = function (_React$Component) {
     key: "renderPath",
     value: function renderPath(img) {
       if (img === 1) {
-        return "/cases/auchandirect";
+        return "/portfolio/cases/auchandirect";
       } else if (img === 2) {
-        return "/cases/carrefour";
+        return "/portfolio/cases/carrefour";
       } else if (img === 3) {
-        return "/cases/planetvo";
+        return "/portfolio/cases/planetvo";
       } else if (img === 4) {
-        return "/cases/groupama";
+        return "/portfolio/cases/groupama";
       } else {
-        return "/";
+        return "/portfolio/";
       }
     }
   }, {
