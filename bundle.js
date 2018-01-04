@@ -24301,7 +24301,7 @@ var Navigation = exports.Navigation = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: "/" },
+            { to: "#/" },
             _react2.default.createElement(_image2.default, { img: 6 })
           )
         ),
@@ -24316,7 +24316,7 @@ var Navigation = exports.Navigation = function (_React$Component) {
               null,
               _react2.default.createElement(
                 _reactRouterDom.Link,
-                { className: "menu__link", to: "/" },
+                { className: "menu__link", to: "#/" },
                 "Cases studies"
               )
             ),
@@ -24325,7 +24325,7 @@ var Navigation = exports.Navigation = function (_React$Component) {
               null,
               _react2.default.createElement(
                 _reactRouterDom.Link,
-                { className: "menu__link", to: "/about" },
+                { className: "menu__link", to: "#/about" },
                 "About me"
               )
             )
@@ -24641,15 +24641,15 @@ var PreviewCase = exports.PreviewCase = function (_React$Component) {
     key: "renderPath",
     value: function renderPath(img) {
       if (img === 1) {
-        return "/cases/auchandirect";
+        return "#/cases/auchandirect";
       } else if (img === 2) {
-        return "/cases/carrefour";
+        return "#/cases/carrefour";
       } else if (img === 3) {
-        return "/cases/planetvo";
+        return "#/cases/planetvo";
       } else if (img === 4) {
-        return "/cases/groupama";
+        return "#/cases/groupama";
       } else {
-        return "/";
+        return "#/";
       }
     }
   }, {
