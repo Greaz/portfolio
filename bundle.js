@@ -526,6 +526,14 @@ var _dribbble = __webpack_require__(93);
 
 var _dribbble2 = _interopRequireDefault(_dribbble);
 
+var _ux = __webpack_require__(94);
+
+var _ux2 = _interopRequireDefault(_ux);
+
+var _ux3 = __webpack_require__(95);
+
+var _ux4 = _interopRequireDefault(_ux3);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -562,6 +570,10 @@ var Image = exports.Image = function (_React$Component) {
         return _react2.default.createElement("img", { src: _about2.default, alt: "don't make same mistake twice" });
       } else if (img === 8) {
         return _react2.default.createElement("img", { src: _dribbble2.default, alt: "dribbble ball icon" });
+      } else if (img === 9) {
+        return _react2.default.createElement("img", { src: _ux2.default, alt: "Ux case" });
+      } else if (img === 10) {
+        return _react2.default.createElement("img", { src: _ux4.default, alt: "illustration of the situation" });
       } else {
         return _react2.default.createElement("img", { src: _default2.default, alt: "default img" });
       }
@@ -2589,7 +2601,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _brands = __webpack_require__(97);
+var _brands = __webpack_require__(99);
 
 var _brands2 = _interopRequireDefault(_brands);
 
@@ -2733,7 +2745,7 @@ exports = module.exports = __webpack_require__(42)(undefined);
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n  text-decoration: none; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n  body div {\n    width: 100%; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n@font-face {\n  font-family: 'Nunito';\n  src: url(\"https://fonts.googleapis.com/css?family=Nunito:300,400,700\");\n  font-style: normal; }\n\n@font-face {\n  font-family: 'Nunito';\n  src: url(\"https://fonts.googleapis.com/css?family=Permanent+Marker\");\n  font-style: normal; }\n\nh2 {\n  font-family: \"Permanent Marker\", cursive;\n  font-size: 32px;\n  color: #4D5D80;\n  margin-bottom: 16px; }\n\nh3 {\n  font-family: \"Permanent Marker\", cursive;\n  font-size: 26px;\n  color: #4D5D80; }\n\nspan {\n  font-family: \"Nunito\", sans-serif;\n  font-size: 14px;\n  color: #4D5D80; }\n\np {\n  font-family: \"Nunito\", sans-serif;\n  font-size: 14px;\n  font-weight: 300;\n  color: #838791;\n  line-height: 24px; }\n\n.navigation {\n  height: 40px;\n  width: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 2;\n  display: flex;\n  flex-direction: row; }\n  .navigation div {\n    padding: 8px;\n    display: flex; }\n  .navigation div:first-child {\n    width: 33%; }\n  .navigation div:last-child {\n    justify-content: flex-end; }\n  .navigation img {\n    max-width: 130px;\n    min-height: 20px;\n    padding: 0 8px; }\n  .navigation ul {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: flex-end; }\n  .navigation li {\n    padding: 0 8px; }\n    .navigation li a {\n      text-decoration: none;\n      color: #FFFFFF;\n      font-family: \"Nunito\", sans-serif;\n      font-size: 12px;\n      font-weight: 700;\n      text-transform: uppercase; }\n\n.menu__link {\n  position: relative;\n  display: block;\n  padding: 0.65em 0;\n  text-align: center;\n  color: #FFFFFF;\n  -webkit-transition: background 0.3s, color 0.3s;\n  transition: background 0.3s, color 0.3s; }\n\n.menu__link:hover,\n.menu__link:focus {\n  color: #F85E5E; }\n\n.header {\n  height: 90vh;\n  background-color: #26344D;\n  overflow: hidden;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  .header div {\n    max-width: 732px;\n    padding: 16px;\n    margin: auto; }\n  @media screen and (max-width: 500px) {\n    .header h1 {\n      font-family: \"Nunito\", sans-serif;\n      font-weight: 300;\n      font-size: 26px;\n      color: #FFFFFF;\n      text-align: center;\n      position: relative;\n      z-index: 1;\n      line-height: 38px; }\n    .header span {\n      font-weight: 700;\n      text-decoration: none;\n      color: #FFFFFF;\n      font-size: 26px; } }\n  @media screen and (min-width: 500px) {\n    .header h1 {\n      font-family: \"Nunito\", sans-serif;\n      font-weight: 300;\n      font-size: 40px;\n      color: #FFFFFF;\n      text-align: center;\n      position: relative;\n      z-index: 1;\n      line-height: 60px; }\n    .header span {\n      font-weight: 700;\n      text-decoration: none;\n      color: #FFFFFF;\n      font-size: 40px; } }\n  .header img {\n    position: absolute;\n    top: 3%;\n    left: 3%;\n    height: 80%; }\n\n.grillCase {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n  max-width: 984px;\n  margin: 32px auto; }\n\n.dribbble {\n  display: flex;\n  max-width: 984px;\n  margin: 32px auto 96px auto;\n  justify-content: center; }\n  .dribbble section {\n    max-width: 600px;\n    display: flex;\n    flex-direction: column; }\n    .dribbble section img {\n      width: 100px;\n      margin: 16px auto; }\n    .dribbble section span {\n      text-align: center;\n      font-size: 22px;\n      line-height: 28px; }\n\n.ref {\n  display: block;\n  max-width: 460px;\n  min-width: 288px;\n  padding: 0 16px;\n  margin-bottom: 48px; }\n  .ref h3 {\n    margin: 8px 0; }\n  .ref span {\n    text-transform: uppercase; }\n  .ref img {\n    width: 100%; }\n\n.job-title {\n  display: block;\n  font-size: 14px;\n  font-weight: 700;\n  line-height: 18px; }\n\n.job-skills {\n  display: block;\n  color: #838791;\n  font-size: 12px;\n  font-weight: 300;\n  line-height: 18px;\n  margin-bottom: 8px; }\n\n.footer {\n  width: 100%;\n  background-color: #26344D;\n  color: #FFFFFF; }\n  .footer h3 {\n    color: #FFFFFF; }\n  .footer div:first-child {\n    padding: 16px 0;\n    max-width: 984px;\n    margin: 0 auto;\n    display: flex;\n    flex-flow: wrap;\n    justify-content: space-between; }\n  .footer div:last-child {\n    background-color: #212E45;\n    margin-top: 32px;\n    display: flex;\n    justify-content: space-between;\n    padding: 32px 0; }\n    .footer div:last-child img {\n      padding: 0 16px; }\n    @media screen and (max-width: 500px) {\n      .footer div:last-child h3 {\n        display: none; } }\n    .footer div:last-child span {\n      color: #FFFFFF;\n      padding: 8px 16px; }\n\n.brand {\n  padding: 16px;\n  width: 288px; }\n  .brand h3 {\n    font-size: 22px;\n    margin-bottom: 8px; }\n  .brand span {\n    display: block;\n    color: #FFFFFF;\n    font-size: 12px;\n    font-weight: 300;\n    line-height: 18px;\n    text-transform: uppercase;\n    opacity: .5; }\n\n.body {\n  display: flex;\n  max-width: 984px;\n  margin: 32px auto;\n  justify-content: center; }\n  .body section {\n    display: flex;\n    flex-direction: column;\n    max-width: 600px;\n    min-width: 288px;\n    justify-content: center;\n    padding: 0 16px; }\n    .body section h3 {\n      margin: 48px 0 16px 0; }\n    .body section img {\n      width: 288px;\n      margin: 24px auto; }\n    .body section li {\n      display: flex;\n      justify-content: space-between;\n      margin-bottom: 24px; }\n      .body section li span {\n        color: #838791;\n        font-weight: 300;\n        line-height: 24px; }\n      .body section li span:last-child {\n        text-align: right; }\n      .body section li b {\n        font-weight: 700; }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n  text-decoration: none; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n  body div {\n    width: 100%; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n@font-face {\n  font-family: 'Nunito';\n  src: url(\"https://fonts.googleapis.com/css?family=Nunito:300,400,700\");\n  font-style: normal; }\n\n@font-face {\n  font-family: 'Nunito';\n  src: url(\"https://fonts.googleapis.com/css?family=Permanent+Marker\");\n  font-style: normal; }\n\nh2 {\n  font-family: \"Permanent Marker\", cursive;\n  font-size: 32px;\n  color: #4D5D80;\n  margin-bottom: 16px; }\n\nh3 {\n  font-family: \"Permanent Marker\", cursive;\n  font-size: 26px;\n  color: #4D5D80; }\n\nspan {\n  font-family: \"Nunito\", sans-serif;\n  font-size: 14px;\n  color: #4D5D80; }\n\np {\n  font-family: \"Nunito\", sans-serif;\n  font-size: 14px;\n  font-weight: 300;\n  color: #838791;\n  line-height: 24px; }\n\n.navigation {\n  height: 40px;\n  width: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 2;\n  display: flex;\n  flex-direction: row; }\n  .navigation div {\n    padding: 8px;\n    display: flex; }\n  .navigation div:first-child {\n    width: 33%; }\n  .navigation div:last-child {\n    justify-content: flex-end; }\n  .navigation img {\n    max-width: 130px;\n    min-height: 20px;\n    padding: 0 8px; }\n  .navigation ul {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: flex-end; }\n  .navigation li {\n    padding: 0 8px; }\n    .navigation li a {\n      text-decoration: none;\n      color: #FFFFFF;\n      font-family: \"Nunito\", sans-serif;\n      font-size: 12px;\n      font-weight: 700;\n      text-transform: uppercase; }\n\n.menu__link {\n  position: relative;\n  display: block;\n  padding: 0.65em 0;\n  text-align: center;\n  color: #FFFFFF;\n  -webkit-transition: background 0.3s, color 0.3s;\n  transition: background 0.3s, color 0.3s; }\n\n.menu__link:hover,\n.menu__link:focus {\n  color: #F85E5E; }\n\n.header {\n  height: 90vh;\n  background-color: #26344D;\n  overflow: hidden;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  .header div {\n    max-width: 732px;\n    padding: 16px;\n    margin: auto; }\n  @media screen and (max-width: 500px) {\n    .header h1 {\n      font-family: \"Nunito\", sans-serif;\n      font-weight: 300;\n      font-size: 26px;\n      color: #FFFFFF;\n      text-align: center;\n      position: relative;\n      z-index: 1;\n      line-height: 38px; }\n    .header span {\n      font-weight: 700;\n      text-decoration: none;\n      color: #FFFFFF;\n      font-size: 26px; } }\n  @media screen and (min-width: 500px) {\n    .header h1 {\n      font-family: \"Nunito\", sans-serif;\n      font-weight: 300;\n      font-size: 40px;\n      color: #FFFFFF;\n      text-align: center;\n      position: relative;\n      z-index: 1;\n      line-height: 60px; }\n    .header span {\n      font-weight: 700;\n      text-decoration: none;\n      color: #FFFFFF;\n      font-size: 40px; } }\n  .header img {\n    position: absolute;\n    top: 3%;\n    left: 3%;\n    height: 80%; }\n\n.grillCase {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n  max-width: 984px;\n  margin: 32px auto; }\n\n.dribbble {\n  display: flex;\n  max-width: 984px;\n  margin: 32px auto 96px auto;\n  justify-content: center; }\n  .dribbble section {\n    max-width: 600px;\n    display: flex;\n    flex-direction: column; }\n    .dribbble section img {\n      width: 100px;\n      margin: 16px auto; }\n    .dribbble section span {\n      text-align: center;\n      font-size: 22px;\n      line-height: 28px; }\n\n.ref {\n  display: block;\n  max-width: 460px;\n  min-width: 288px;\n  padding: 0 16px;\n  margin-bottom: 48px; }\n  .ref h3 {\n    margin: 8px 0; }\n  .ref span {\n    text-transform: uppercase; }\n  .ref img {\n    width: 100%; }\n\n.job-title {\n  display: block;\n  font-size: 14px;\n  font-weight: 700;\n  line-height: 18px; }\n\n.job-skills {\n  display: block;\n  color: #838791;\n  font-size: 12px;\n  font-weight: 300;\n  line-height: 18px;\n  margin-bottom: 8px; }\n\n.footer {\n  width: 100%;\n  background-color: #26344D;\n  color: #FFFFFF; }\n  .footer h3 {\n    color: #FFFFFF; }\n  .footer div:first-child {\n    padding: 16px 0;\n    max-width: 984px;\n    margin: 0 auto;\n    display: flex;\n    flex-flow: wrap;\n    justify-content: space-between; }\n  .footer div:last-child {\n    background-color: #212E45;\n    margin-top: 32px;\n    display: flex;\n    justify-content: space-between;\n    padding: 32px 0; }\n    .footer div:last-child img {\n      padding: 0 16px; }\n    @media screen and (max-width: 500px) {\n      .footer div:last-child h3 {\n        display: none; } }\n    .footer div:last-child span {\n      color: #FFFFFF;\n      padding: 8px 16px; }\n\n.brand {\n  padding: 16px;\n  width: 288px; }\n  .brand h3 {\n    font-size: 22px;\n    margin-bottom: 8px; }\n  .brand span {\n    display: block;\n    color: #FFFFFF;\n    font-size: 12px;\n    font-weight: 300;\n    line-height: 18px;\n    text-transform: uppercase;\n    opacity: .5; }\n\n.body {\n  display: flex;\n  max-width: 984px;\n  margin: 32px auto;\n  justify-content: center; }\n  .body section {\n    display: flex;\n    flex-direction: column;\n    max-width: 600px;\n    min-width: 288px;\n    justify-content: center;\n    padding: 0 16px; }\n    .body section h3 {\n      margin: 48px 0 16px 0; }\n    .body section img {\n      width: 288px;\n      margin: 24px auto; }\n    .body section li {\n      display: flex;\n      justify-content: space-between;\n      margin-bottom: 24px; }\n      .body section li span {\n        color: #838791;\n        font-weight: 300;\n        line-height: 24px; }\n      .body section li span:last-child {\n        text-align: right; }\n      .body section li b {\n        font-weight: 700; }\n\n.title-case {\n  display: flex;\n  justify-content: space-between;\n  margin: 32px auto 48px auto;\n  max-width: 984px; }\n  .title-case h2 {\n    padding: 0 16px; }\n  .title-case div {\n    text-align: right;\n    padding: 0 16px; }\n\n.problem {\n  margin: 0 16px; }\n  .problem section {\n    margin: -10px auto 32px auto; }\n  .problem div {\n    display: flex;\n    flex-direction: column;\n    max-width: 984px;\n    margin: 0 auto; }\n\n.situation {\n  background-color: #F3F3F3; }\n  .situation div {\n    display: flex;\n    flex-direction: column;\n    max-width: 984px;\n    margin: 0 auto;\n    padding-top: 32px; }\n  .situation h3 {\n    padding: 0 16px; }\n  @media screen and (min-width: 500px) {\n    .situation h3 {\n      margin-bottom: 48px; } }\n  @media screen and (max-width: 500px) {\n    .situation h3 {\n      margin-bottom: 32px; }\n    .situation img {\n      height: 80px; } }\n  .situation img {\n    padding: 0 16px; }\n\n.card {\n  max-width: 600px;\n  padding: 32px;\n  background-color: #FFFFFF;\n  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);\n  border-radius: 4px; }\n  .card h3 {\n    margin-bottom: 16px; }\n  .card p {\n    font-size: 22px;\n    line-height: 28px; }\n  .card div {\n    font-family: \"Permanent Marker\", cursive;\n    font-size: 40px;\n    text-align: center;\n    color: #4D5D80;\n    margin: 16px 0; }\n", ""]);
 
 // exports
 
@@ -24217,7 +24229,7 @@ var _navigation = __webpack_require__(84);
 
 var _navigation2 = _interopRequireDefault(_navigation);
 
-var _routes = __webpack_require__(94);
+var _routes = __webpack_require__(96);
 
 var _routes2 = _interopRequireDefault(_routes);
 
@@ -24404,6 +24416,18 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjg4IiBoZWlnaHQ9IjI4
 /* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "1148b51b1adc346a730512e73ca10d43.svg";
+
+/***/ }),
+/* 95 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "501b1367127dd3e065c9b778e6e57251.svg";
+
+/***/ }),
+/* 96 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
@@ -24422,27 +24446,27 @@ var _reactRouterDom = __webpack_require__(10);
 
 var _history = __webpack_require__(36);
 
-var _homepage = __webpack_require__(95);
+var _homepage = __webpack_require__(97);
 
 var _homepage2 = _interopRequireDefault(_homepage);
 
-var _about = __webpack_require__(98);
+var _about = __webpack_require__(100);
 
 var _about2 = _interopRequireDefault(_about);
 
-var _auchandirect = __webpack_require__(99);
+var _auchandirect = __webpack_require__(101);
 
 var _auchandirect2 = _interopRequireDefault(_auchandirect);
 
-var _carrefour = __webpack_require__(100);
+var _carrefour = __webpack_require__(102);
 
 var _carrefour2 = _interopRequireDefault(_carrefour);
 
-var _planetvo = __webpack_require__(101);
+var _planetvo = __webpack_require__(103);
 
 var _planetvo2 = _interopRequireDefault(_planetvo);
 
-var _groupama = __webpack_require__(102);
+var _groupama = __webpack_require__(104);
 
 var _groupama2 = _interopRequireDefault(_groupama);
 
@@ -24471,10 +24495,10 @@ var Routes = exports.Routes = function (_React$Component) {
         { history: (0, _history.createHashHistory)({ basename: location.pathname }) },
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _homepage2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/about', component: _about2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/cases/auchandirect', component: _auchandirect2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/cases/carrefour', component: _carrefour2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/cases/planetvo', component: _planetvo2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/cases/groupama', component: _groupama2.default })
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/auchandirect', component: _auchandirect2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/carrefour', component: _carrefour2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/planetvo', component: _planetvo2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/groupama', component: _groupama2.default })
       );
     }
   }]);
@@ -24485,7 +24509,7 @@ var Routes = exports.Routes = function (_React$Component) {
 module.exports = Routes;
 
 /***/ }),
-/* 95 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24506,7 +24530,7 @@ var _header = __webpack_require__(7);
 
 var _header2 = _interopRequireDefault(_header);
 
-var _previewcase = __webpack_require__(96);
+var _previewcase = __webpack_require__(98);
 
 var _previewcase2 = _interopRequireDefault(_previewcase);
 
@@ -24633,7 +24657,7 @@ var Homepage = exports.Homepage = function (_React$Component) {
 module.exports = Homepage;
 
 /***/ }),
-/* 96 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24677,13 +24701,13 @@ var PreviewCase = exports.PreviewCase = function (_React$Component) {
     key: "renderPath",
     value: function renderPath(img) {
       if (img === 1) {
-        return "/cases/auchandirect";
+        return "/auchandirect";
       } else if (img === 2) {
-        return "/cases/carrefour";
+        return "/carrefour";
       } else if (img === 3) {
-        return "/cases/planetvo";
+        return "/planetvo";
       } else if (img === 4) {
-        return "/cases/groupama";
+        return "/groupama";
       } else {
         return "/";
       }
@@ -24736,7 +24760,7 @@ var PreviewCase = exports.PreviewCase = function (_React$Component) {
 module.exports = PreviewCase;
 
 /***/ }),
-/* 97 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24806,7 +24830,7 @@ var Brands = exports.Brands = function (_React$Component) {
 module.exports = Brands;
 
 /***/ }),
-/* 98 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25118,7 +25142,7 @@ var About = exports.About = function (_React$Component) {
 module.exports = About;
 
 /***/ }),
-/* 99 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25138,6 +25162,10 @@ var _react2 = _interopRequireDefault(_react);
 var _header = __webpack_require__(7);
 
 var _header2 = _interopRequireDefault(_header);
+
+var _image = __webpack_require__(6);
+
+var _image2 = _interopRequireDefault(_image);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25160,18 +25188,92 @@ var Auchandirect = exports.Auchandirect = function (_React$Component) {
     key: "render",
     value: function render() {
       return _react2.default.createElement(
-        _header2.default,
+        "div",
         null,
         _react2.default.createElement(
-          "h1",
+          _header2.default,
           null,
           _react2.default.createElement(
-            "span",
+            "h1",
             null,
-            "Stop Bullshit, start good shit."
+            _react2.default.createElement(
+              "span",
+              null,
+              "Stop Bullshit, start good shit."
+            ),
+            _react2.default.createElement("br", null),
+            " Allow users to do their food shopping of the month in less than 20 minutes."
+          )
+        ),
+        _react2.default.createElement(
+          "section",
+          { className: "title-case" },
+          _react2.default.createElement(
+            "h2",
+            null,
+            "Auchan:Direct"
           ),
-          _react2.default.createElement("br", null),
-          " Allow users to do their food shopping of the month in less than 20 minutes."
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement(
+              "span",
+              { className: "job-title" },
+              "May 2016 - Today"
+            ),
+            _react2.default.createElement(
+              "span",
+              { className: "job-skills" },
+              "UX, UI, PROTOTYPES, INTERACTIONS, MOTION DESIGN"
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "section",
+          { className: "problem" },
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement(_image2.default, { img: 9 }),
+            _react2.default.createElement(
+              "section",
+              { className: "card" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "The problem"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "On average 100 people a day encounter a password reset error blocking access to their account"
+              ),
+              _react2.default.createElement(
+                "div",
+                null,
+                "="
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "\xAB\xA0Users do not order anymore, loss of trust in the brand and possibly goes to competitors\xA0\xBB"
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "section",
+          { className: "situation" },
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement(
+              "h3",
+              null,
+              "Situation of a reset password usecase"
+            ),
+            _react2.default.createElement(_image2.default, { img: 10 })
+          )
         )
       );
     }
@@ -25183,7 +25285,7 @@ var Auchandirect = exports.Auchandirect = function (_React$Component) {
 module.exports = Auchandirect;
 
 /***/ }),
-/* 100 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25251,7 +25353,7 @@ var Carrefour = exports.Carrefour = function (_React$Component) {
 module.exports = Carrefour;
 
 /***/ }),
-/* 101 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25319,7 +25421,7 @@ var Planetvo = exports.Planetvo = function (_React$Component) {
 module.exports = Planetvo;
 
 /***/ }),
-/* 102 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
