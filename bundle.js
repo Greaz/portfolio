@@ -24570,7 +24570,7 @@ var Homepage = exports.Homepage = function (_React$Component) {
           _react2.default.createElement(
             "h1",
             null,
-            "Hello, i solve ",
+            "Hello, I solve ",
             _react2.default.createElement(
               "span",
               null,
@@ -24610,7 +24610,7 @@ var Homepage = exports.Homepage = function (_React$Component) {
               _react2.default.createElement(
                 "span",
                 null,
-                "My study cases are coming soon, meanwhile I invite you to look at my profile dribbble!"
+                "My study cases are coming soon, meanwhile I invite you to look at my dribbble profile!"
               )
             )
           )
@@ -24888,28 +24888,9 @@ var About = exports.About = function (_React$Component) {
             _react2.default.createElement(
               "span",
               null,
-              "Guess, try, check, learn, retry\u2026"
+              "Guess, try, check, learn, repeat again until it works."
             ),
-            _react2.default.createElement("br", null),
-            "I do not know everything, i am just trying ",
-            _react2.default.createElement(
-              "span",
-              null,
-              "not"
-            ),
-            " to ",
-            _react2.default.createElement(
-              "span",
-              null,
-              "make"
-            ),
-            " the ",
-            _react2.default.createElement(
-              "span",
-              null,
-              "same mistake"
-            ),
-            " twice."
+            "I don\u2019t know everything but I won\u2019t make the same mistake twice."
           )
         ),
         _react2.default.createElement(
@@ -24936,15 +24917,12 @@ var About = exports.About = function (_React$Component) {
             _react2.default.createElement(
               "h3",
               null,
-              "How do i work ?"
+              "What is my job ?"
             ),
             _react2.default.createElement(
               "p",
               null,
-              "I have 2 principles, I'm trying to learn from my mistakes by applying the lean methodology (PDCA) \"Plan Do Check Act\" and i do not concider myself as an artist. I always try to be pragmatic by making fact-based choices.",
-              _react2.default.createElement("br", null),
-              _react2.default.createElement("br", null),
-              "During my projects, I always try to establish a standard base through design systems to create consistency / uniformity within the interface before iterating piece by piece on disruptive / innovative elements. It may seem \xAB\xA0overkill\xA0\xBB but it is in my opinion the best way to understand the impact of each action"
+              "In my opinion, the mission of Design is to offer fact-based, pragmatic solutions that save time and resources. In order to do that, I use the LEAN approach : when working on a project I create a design system to give uniformity to my interface and then I iterate piece by piece to improve this base of reference. The PDCA \u201CPlan Do Check Act\u201D methodology helps me identify and plan my action and analyze their impact."
             ),
             _react2.default.createElement(_image2.default, { img: 7 }),
             _react2.default.createElement(
@@ -25057,7 +25035,7 @@ var About = exports.About = function (_React$Component) {
                 _react2.default.createElement(
                   "span",
                   null,
-                  "Juillet 2012 - September 2012"
+                  "July 2012 - September 2012"
                 )
               )
             ),
@@ -25109,20 +25087,6 @@ var About = exports.About = function (_React$Component) {
                   "span",
                   null,
                   "2009 - 2011"
-                )
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                _react2.default.createElement(
-                  "span",
-                  null,
-                  "And other graduates from kids schools..."
-                ),
-                _react2.default.createElement(
-                  "span",
-                  null,
-                  "2011 - day of birth"
                 )
               )
             )
