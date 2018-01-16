@@ -24590,7 +24590,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var menuItems = [{ path: '/', name: 'Cases studies' }, { path: '/about', name: 'About me' }];
+var menuItems = [{ path: '/', name: 'Work' }, { path: '/about', name: 'About me' }];
 
 var cleanURL = /([<=#]).*$/;
 
@@ -24618,8 +24618,7 @@ var Menu = exports.Menu = function (_React$Component) {
               className: _this2.isActive(menuItem.path),
               to: menuItem.path
             },
-            menuItem.name,
-            console.warn(_this2.isActive(menuItem.path))
+            menuItem.name
           )
         );
       });
