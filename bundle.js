@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "./";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 45);
+/******/ 	return __webpack_require__(__webpack_require__.s = 49);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -482,7 +482,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(70);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(39);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(72);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
@@ -492,7 +492,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(78);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(41);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(22);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
@@ -629,6 +629,22 @@ var _logoDark = __webpack_require__(112);
 
 var _logoDark2 = _interopRequireDefault(_logoDark);
 
+var _adi = __webpack_require__(26);
+
+var _adi2 = _interopRequireDefault(_adi);
+
+var _carrefour = __webpack_require__(27);
+
+var _carrefour2 = _interopRequireDefault(_carrefour);
+
+var _pvo = __webpack_require__(28);
+
+var _pvo2 = _interopRequireDefault(_pvo);
+
+var _groupama = __webpack_require__(29);
+
+var _groupama2 = _interopRequireDefault(_groupama);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -637,7 +653,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Images = [{ name: _adiLogo2.default, alt: 'logo Auchan:Direct' }, { name: _carrefourLogo2.default, alt: 'logo Carrefour' }, { name: _pvoLogo2.default, alt: 'logo Planet VO' }, { name: _groupamaLogo2.default, alt: 'logo Groupama' }, { name: _header2.default, alt: 'svg background header' }, { name: _logo2.default, alt: 'logotype' }, { name: _about2.default, alt: 'don"t make same mistake twice' }, { name: _dribbble2.default, alt: 'dribbble icon ball' }, { name: _ux2.default, alt: 'Ux case' }, { name: _ux4.default, alt: 'illustration of the situation' }, { name: _result2.default, alt: 'results' }, { name: _adiOther2.default, alt: 'Other works' }, { name: _adiWork2.default, alt: 'Auchan:Direct new nav' }, { name: _adiWork4.default, alt: 'Auchan:Direct new product card' }, { name: _adiLoader2.default, alt: 'Auchan:Direct svg loader' }, { name: _adiHistory2.default, alt: 'Auchan:Direct 2016' }, { name: _adiHistory4.default, alt: 'Auchan:Direct early 2017' }, { name: _adiHistory6.default, alt: 'Auchan:Direct 2017' }, { name: _logoDark2.default, alt: 'logotype' }];
+var Images = [{ name: _adiLogo2.default, alt: 'logo Auchan:Direct' }, { name: _carrefourLogo2.default, alt: 'logo Carrefour' }, { name: _pvoLogo2.default, alt: 'logo Planet VO' }, { name: _groupamaLogo2.default, alt: 'logo Groupama' }, { name: _header2.default, alt: 'svg background header' }, { name: _logo2.default, alt: 'logotype' }, { name: _about2.default, alt: 'don"t make same mistake twice' }, { name: _dribbble2.default, alt: 'dribbble icon ball' }, { name: _ux2.default, alt: 'Ux case' }, { name: _ux4.default, alt: 'illustration of the situation' }, { name: _result2.default, alt: 'results' }, { name: _adiOther2.default, alt: 'Other works' }, { name: _adiWork2.default, alt: 'Auchan:Direct new nav' }, { name: _adiWork4.default, alt: 'Auchan:Direct new product card' }, { name: _adiLoader2.default, alt: 'Auchan:Direct svg loader' }, { name: _adiHistory2.default, alt: 'Auchan:Direct 2016' }, { name: _adiHistory4.default, alt: 'Auchan:Direct early 2017' }, { name: _adiHistory6.default, alt: 'Auchan:Direct 2017' }, { name: _logoDark2.default, alt: 'logotype' }, { name: _adi2.default, alt: 'background Auchan:Direct' }, { name: _carrefour2.default, alt: 'background Carrefour' }, { name: _groupama2.default, alt: 'background Groupama' }, { name: _pvo2.default, alt: 'background PlanetVO2' }];
 
 var Image = exports.Image = function (_React$Component) {
   _inherits(Image, _React$Component);
@@ -650,16 +666,18 @@ var Image = exports.Image = function (_React$Component) {
 
   _createClass(Image, [{
     key: "renderImage",
-    value: function renderImage(img) {
+    value: function renderImage(img, className) {
       var index = img - 1;
-      return _react2.default.createElement("img", { src: Images[index].name, alt: Images[index].alt });
+      return _react2.default.createElement("img", { className: className, src: Images[index].name, alt: Images[index].alt });
     }
   }, {
     key: "render",
     value: function render() {
-      var img = this.props.img;
+      var _props = this.props,
+          img = _props.img,
+          className = _props.className;
 
-      return this.renderImage(img);
+      return this.renderImage(img, className);
     }
   }]);
 
@@ -1323,8 +1341,8 @@ var matchPath = function matchPath(pathname) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return createLocation; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return locationsAreEqual; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_resolve_pathname__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_value_equal__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_resolve_pathname__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_value_equal__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__PathUtils__ = __webpack_require__(12);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1490,11 +1508,11 @@ exports.locationsAreEqual = exports.createLocation = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _resolvePathname = __webpack_require__(32);
+var _resolvePathname = __webpack_require__(36);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(33);
+var _valueEqual = __webpack_require__(37);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -1999,6 +2017,30 @@ module.exports = Footer;
 /* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "1f7728bae747ef4715ac76788a38baff.jpg";
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "da1c8a44abbc8e99f598b50dd6e502b4.jpg";
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "2637420c40092ad43264ee99557b0a6f.jpg";
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "7fa32f4677fd0b9bbdc09e89e646c61d.jpg";
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -2035,7 +2077,7 @@ var ExecutionEnvironment = {
 module.exports = ExecutionEnvironment;
 
 /***/ }),
-/* 27 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2116,7 +2158,7 @@ module.exports = EventListener;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 28 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2158,7 +2200,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 module.exports = getActiveElement;
 
 /***/ }),
-/* 29 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2229,7 +2271,7 @@ function shallowEqual(objA, objB) {
 module.exports = shallowEqual;
 
 /***/ }),
-/* 30 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2272,7 +2314,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 31 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2302,7 +2344,7 @@ function focusNode(node) {
 module.exports = focusNode;
 
 /***/ }),
-/* 32 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2379,7 +2421,7 @@ function resolvePathname(to) {
 /* harmony default export */ __webpack_exports__["default"] = (resolvePathname);
 
 /***/ }),
-/* 33 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2424,7 +2466,7 @@ function valueEqual(a, b) {
 /* harmony default export */ __webpack_exports__["default"] = (valueEqual);
 
 /***/ }),
-/* 34 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2485,7 +2527,7 @@ var isExtraneousPopstateEvent = exports.isExtraneousPopstateEvent = function isE
 };
 
 /***/ }),
-/* 35 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2595,7 +2637,7 @@ Link.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Link);
 
 /***/ }),
-/* 36 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2662,7 +2704,7 @@ MemoryRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (MemoryRouter);
 
 /***/ }),
-/* 37 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2673,7 +2715,7 @@ MemoryRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Route__["a" /* default */]);
 
 /***/ }),
-/* 38 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2764,7 +2806,7 @@ Prompt.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Prompt);
 
 /***/ }),
-/* 39 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2872,7 +2914,7 @@ Redirect.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Redirect);
 
 /***/ }),
-/* 40 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2938,7 +2980,7 @@ var isExtraneousPopstateEvent = function isExtraneousPopstateEvent(event) {
 };
 
 /***/ }),
-/* 41 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3121,7 +3163,7 @@ StaticRouter.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (StaticRouter);
 
 /***/ }),
-/* 42 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3215,7 +3257,7 @@ Switch.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Switch);
 
 /***/ }),
-/* 43 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3260,7 +3302,7 @@ var withRouter = function withRouter(Component) {
 /* harmony default export */ __webpack_exports__["a"] = (withRouter);
 
 /***/ }),
-/* 44 */
+/* 48 */
 /***/ (function(module, exports) {
 
 exports.__esModule = true;
@@ -3329,13 +3371,13 @@ var SELF_CLOSING_TAGS = exports.SELF_CLOSING_TAGS = [TAG_NAMES.NOSCRIPT, TAG_NAM
 var HELMET_ATTRIBUTE = exports.HELMET_ATTRIBUTE = "data-react-helmet";
 
 /***/ }),
-/* 45 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(46);
+__webpack_require__(50);
 
 var _react = __webpack_require__(0);
 
@@ -3368,13 +3410,13 @@ _reactDom2.default.render(_react2.default.createElement(
 ), document.body);
 
 /***/ }),
-/* 46 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(47);
+var content = __webpack_require__(51);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3399,21 +3441,21 @@ if(false) {
 }
 
 /***/ }),
-/* 47 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(48)(undefined);
+exports = module.exports = __webpack_require__(52)(undefined);
 // imports
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n  text-decoration: none; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n  body div {\n    width: 100%; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nh2 {\n  font-family: \"Permanent Marker\", cursive;\n  font-size: 32px;\n  color: #4D5D80;\n  margin-bottom: 16px; }\n\nh3 {\n  font-family: \"Permanent Marker\", cursive;\n  font-size: 26px;\n  color: #4D5D80; }\n\nspan {\n  font-family: \"Nunito\", sans-serif;\n  font-size: 14px;\n  color: #4D5D80; }\n\np {\n  font-family: \"Nunito\", sans-serif;\n  font-size: 14px;\n  font-weight: 300;\n  color: #838791;\n  line-height: 24px; }\n\n.prev-auchan {\n  background-image: url(" + __webpack_require__(49) + "); }\n\n.prev-carrefour {\n  background-image: url(" + __webpack_require__(50) + "); }\n\n.prev-pvo {\n  background-image: url(" + __webpack_require__(51) + "); }\n\n.prev-groupama {\n  background-image: url(" + __webpack_require__(52) + "); }\n\n.navigation {\n  width: 100%;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0);\n  color: #FFFFFF;\n  top: 0;\n  left: 0;\n  z-index: 2;\n  display: flex;\n  flex-direction: row;\n  box-sizing: border-box;\n  padding: 16px; }\n  .navigation div {\n    display: flex; }\n  .navigation div:first-child {\n    width: 33%; }\n  .navigation div:last-child {\n    justify-content: flex-end;\n    align-content: center; }\n  .navigation img {\n    max-width: 130px;\n    min-height: 20px; }\n  .navigation ul {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: flex-end; }\n  .navigation li {\n    display: flex;\n    padding: 0 8px; }\n    .navigation li a {\n      position: relative;\n      display: block;\n      align-self: center;\n      text-align: center;\n      text-decoration: none;\n      font-family: \"Nunito\", sans-serif;\n      font-size: 12px;\n      font-weight: 700;\n      text-transform: uppercase;\n      -webkit-transition: background 0.3s, color 0.3s;\n      transition: background 0.3s, color 0.3s; }\n\n.fixed {\n  position: fixed;\n  background-color: white;\n  color: #4D5D80;\n  -webkit-transition: background 0.3s, color 0.3s;\n  transition: background 0.3s, color 0.3s;\n  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); }\n  .fixed img {\n    color: #4D5D80; }\n  .fixed a {\n    color: #4D5D80; }\n\n.menu__link {\n  color: #FFFFFF; }\n\n.menu__link2 {\n  color: #F85E5E !important; }\n\n.header {\n  height: 90vh;\n  overflow: hidden;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  background-color: #26344D; }\n  .header div {\n    max-width: 732px;\n    padding: 16px;\n    margin: auto; }\n  @media screen and (max-width: 500px) {\n    .header h1 {\n      font-family: \"Nunito\", sans-serif;\n      font-weight: 300;\n      font-size: 26px;\n      color: #FFFFFF;\n      text-align: center;\n      position: relative;\n      z-index: 1;\n      line-height: 38px; }\n    .header span {\n      font-weight: 700;\n      text-decoration: none;\n      color: #FFFFFF;\n      font-size: 26px; } }\n  @media screen and (min-width: 500px) {\n    .header h1 {\n      font-family: \"Nunito\", sans-serif;\n      font-weight: 300;\n      font-size: 40px;\n      color: #FFFFFF;\n      text-align: center;\n      position: relative;\n      z-index: 1;\n      line-height: 60px; }\n    .header span {\n      font-weight: 700;\n      text-decoration: none;\n      color: #FFFFFF;\n      font-size: 40px; } }\n  .header img {\n    position: absolute;\n    top: 3%;\n    left: 3%;\n    height: 80%; }\n\n.grillCase {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n  max-width: 984px;\n  margin: 16px auto;\n  box-sizing: border-box;\n  padding: 16px; }\n\n.dribbble {\n  display: flex;\n  max-width: 984px;\n  margin: 16px auto 32px auto;\n  justify-content: center;\n  box-sizing: border-box;\n  padding: 16px; }\n  .dribbble section {\n    max-width: 600px;\n    display: flex;\n    flex-direction: column; }\n    .dribbble section img {\n      width: 100px;\n      margin: 16px auto; }\n    .dribbble section span {\n      text-align: center;\n      font-size: 22px;\n      line-height: 28px; }\n\n.ref {\n  display: block;\n  max-width: 460px;\n  min-width: 288px;\n  margin-bottom: 48px; }\n  .ref h3 {\n    margin: 8px 0; }\n  .ref span {\n    text-transform: uppercase; }\n  .ref div {\n    box-sizing: border-box;\n    padding: 32px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    background-size: cover; }\n    @media screen and (min-width: 500px) {\n      .ref div {\n        height: 600px; } }\n    @media screen and (max-width: 500px) {\n      .ref div {\n        height: 300px; } }\n    .ref div img {\n      margin: 16px; }\n    .ref div p {\n      text-align: center;\n      font-size: 22px;\n      font-family: \"Nunito\", sans-serif;\n      line-height: 28px;\n      color: #FFFFFF; }\n\n.job-title {\n  display: block;\n  font-size: 14px;\n  font-weight: 700;\n  line-height: 18px; }\n\n.job-skills {\n  display: block;\n  color: #838791;\n  font-size: 12px;\n  font-weight: 300;\n  line-height: 18px;\n  margin-bottom: 8px; }\n\n.footer {\n  width: 100%;\n  background-color: #26344D;\n  color: #FFFFFF; }\n  .footer h3 {\n    color: #FFFFFF; }\n  .footer div:first-child {\n    padding: 16px 0;\n    max-width: 984px;\n    margin: 0 auto;\n    display: flex;\n    flex-flow: wrap;\n    justify-content: space-between;\n    box-sizing: border-box;\n    padding: 16px; }\n  .footer div:last-child {\n    background-color: #212E45;\n    margin-top: 32px;\n    display: flex;\n    justify-content: space-between;\n    box-sizing: border-box;\n    padding: 16px; }\n    @media screen and (max-width: 500px) {\n      .footer div:last-child h3 {\n        display: none; } }\n    .footer div:last-child span {\n      color: #FFFFFF;\n      padding: 8px 0; }\n    .footer div:last-child a {\n      align-self: center; }\n\n.brand {\n  padding: 16px 0;\n  width: 288px; }\n  .brand h3 {\n    font-size: 22px;\n    margin-bottom: 8px; }\n  .brand span {\n    display: block;\n    color: #FFFFFF;\n    font-size: 12px;\n    font-weight: 300;\n    line-height: 18px;\n    text-transform: uppercase;\n    opacity: .5; }\n\n.body {\n  display: flex;\n  max-width: 984px;\n  margin: 32px auto;\n  justify-content: center;\n  box-sizing: border-box;\n  padding: 16px; }\n  .body section {\n    display: flex;\n    flex-direction: column;\n    max-width: 600px;\n    min-width: 288px;\n    justify-content: center; }\n    .body section h3 {\n      margin: 48px 0 16px 0; }\n    .body section img {\n      width: 288px;\n      margin: 24px auto; }\n    .body section li {\n      display: flex;\n      justify-content: space-between;\n      margin-bottom: 24px; }\n      .body section li span {\n        color: #838791;\n        font-weight: 300;\n        line-height: 24px; }\n      .body section li span:last-child {\n        text-align: right; }\n      .body section li b {\n        font-weight: 700; }\n\n.title-case {\n  display: flex;\n  justify-content: space-between;\n  margin: 16px auto 24px auto;\n  max-width: 984px;\n  box-sizing: border-box;\n  padding: 16px; }\n  .title-case div {\n    text-align: right; }\n\n.problem {\n  box-sizing: border-box;\n  padding: 0 16px; }\n  .problem section {\n    margin: -10px auto 32px auto; }\n  .problem div {\n    display: flex;\n    flex-direction: column;\n    max-width: 984px;\n    margin: 0 auto; }\n\n.situation {\n  background-color: #F3F3F3;\n  box-sizing: border-box;\n  padding: 32px 16px; }\n  .situation div {\n    max-width: 984px;\n    margin: 0 auto;\n    padding: 16px 0; }\n  .situation div:nth-child(2) {\n    display: flex;\n    justify-content: center; }\n    .situation div:nth-child(2) section {\n      margin: 8px; }\n  .situation img {\n    width: 100%; }\n  @media screen and (min-width: 700px) {\n    .situation h3 {\n      margin-bottom: 32px; }\n    .situation div:nth-child(2) {\n      flex-direction: row; } }\n  @media screen and (max-width: 700px) {\n    .situation h3 {\n      margin-bottom: 24px; }\n    .situation div:nth-child(2) {\n      flex-direction: column; }\n    .situation img {\n      height: 80px; } }\n\n.action {\n  box-sizing: border-box;\n  padding: 32px 16px; }\n  .action section {\n    margin: 16px auto 32px auto; }\n    .action section p {\n      margin-bottom: 16px; }\n  .action img {\n    width: 100%; }\n\n.card {\n  max-width: 600px;\n  padding: 32px;\n  background-color: #FFFFFF;\n  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);\n  border-radius: 4px; }\n  .card h3, .card h5 {\n    margin-bottom: 16px; }\n  .card h5 {\n    font-family: \"Nunito\", sans-serif;\n    font-size: 22px;\n    color: #4D5D80; }\n  .card span {\n    font-family: \"Nunito\", sans-serif;\n    font-size: 14px;\n    color: #838791;\n    line-height: 24px; }\n  .card p {\n    font-size: 22px;\n    line-height: 28px; }\n  .card b {\n    font-family: \"Permanent Marker\", cursive;\n    color: #F85E5E;\n    font-size: 26px; }\n  .card div {\n    font-family: \"Permanent Marker\", cursive;\n    font-size: 40px;\n    text-align: center;\n    color: #4D5D80;\n    margin: 16px 0; }\n\n.quote {\n  max-width: 600px;\n  margin: 0 auto;\n  text-align: center; }\n  .quote q {\n    font-family: \"Nunito\", sans-serif;\n    font-size: 22px;\n    font-weight: 300;\n    color: #26344D;\n    line-height: 32px; }\n    .quote q b {\n      font-weight: 400; }\n\n.other-work {\n  box-sizing: border-box;\n  padding: 0 16px; }\n  .other-work img:first-child {\n    margin: 48px 0;\n    width: 100%; }\n  .other-work div {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    max-width: 984px;\n    margin: 0 auto; }\n\n.background-grey {\n  background-color: #F3F3F3;\n  box-sizing: border-box;\n  padding: 32px 16px; }\n  .background-grey div {\n    max-width: 984px;\n    margin: 0 auto;\n    padding: 16px 0; }\n    .background-grey div section {\n      display: flex; }\n      .background-grey div section div {\n        max-width: 420px;\n        border-radius: 4px;\n        background-color: #FFFFFF;\n        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);\n        align-self: center;\n        justify: center;\n        padding: 0px;\n        overflow: hidden; }\n        .background-grey div section div img {\n          width: 100%; }\n    .background-grey div p {\n      text-align: center;\n      font-size: 14px; }\n    @media screen and (min-width: 700px) {\n      .background-grey div section {\n        flex-direction: row; }\n        .background-grey div section div {\n          margin: 32px 8px; } }\n    @media screen and (max-width: 700px) {\n      .background-grey div section {\n        flex-direction: column; }\n        .background-grey div section div {\n          margin: 16px 8px; }\n        .background-grey div section div:first-child {\n          margin-top: 32px; } }\n\n.adi-work {\n  margin: 32px 0;\n  display: flex;\n  flex-direction: column; }\n  .adi-work img {\n    width: 100%; }\n  .adi-work section {\n    height: 70px;\n    overflow: hidden;\n    position: relative;\n    display: flex;\n    justify-content: center;\n    margin-bottom: 8px; }\n    .adi-work section span:first-child {\n      font-family: \"Permanent Marker\", cursive;\n      font-size: 96px;\n      color: #CACBCC;\n      position: absolute;\n      top: -24%;\n      left: 48%; }\n    .adi-work section span:last-child {\n      align-self: center;\n      font-size: 22px;\n      font-weight: 300;\n      z-index: 1; }\n\n.adi-work:nth-of-type(3) img {\n  max-width: 280px;\n  align-self: center; }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n  text-decoration: none; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n  body div {\n    width: 100%; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nh2 {\n  font-family: \"Permanent Marker\", cursive;\n  font-size: 32px;\n  color: #4D5D80;\n  margin-bottom: 16px; }\n\nh3 {\n  font-family: \"Permanent Marker\", cursive;\n  font-size: 26px;\n  color: #4D5D80; }\n\nspan {\n  font-family: \"Nunito\", sans-serif;\n  font-size: 14px;\n  color: #4D5D80; }\n\np {\n  font-family: \"Nunito\", sans-serif;\n  font-size: 14px;\n  font-weight: 300;\n  color: #838791;\n  line-height: 24px; }\n\n.prev-auchan {\n  background-image: url(" + __webpack_require__(26) + "); }\n\n.prev-carrefour {\n  background-image: url(" + __webpack_require__(27) + "); }\n\n.prev-pvo {\n  background-image: url(" + __webpack_require__(28) + "); }\n\n.prev-groupama {\n  background-image: url(" + __webpack_require__(29) + "); }\n\n.navigation {\n  width: 100%;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0);\n  color: #FFFFFF;\n  top: 0;\n  left: 0;\n  z-index: 2;\n  display: flex;\n  flex-direction: row;\n  box-sizing: border-box;\n  padding: 16px; }\n  .navigation div {\n    display: flex; }\n  .navigation div:first-child {\n    width: 33%; }\n  .navigation div:last-child {\n    justify-content: flex-end;\n    align-content: center; }\n  .navigation img {\n    max-width: 130px;\n    min-height: 20px; }\n  .navigation ul {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: flex-end; }\n  .navigation li {\n    display: flex;\n    padding: 0 8px; }\n    .navigation li a {\n      position: relative;\n      display: block;\n      align-self: center;\n      text-align: center;\n      text-decoration: none;\n      font-family: \"Nunito\", sans-serif;\n      font-size: 12px;\n      font-weight: 700;\n      text-transform: uppercase;\n      transition: background 0.3s, color 0.3s; }\n\n.fixed {\n  position: fixed;\n  background-color: white;\n  color: #4D5D80;\n  transition: background 0.3s, color 0.3s;\n  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); }\n  .fixed img {\n    color: #4D5D80; }\n  .fixed a {\n    color: #4D5D80; }\n\n.menu__link {\n  color: #FFFFFF; }\n\n.menu__link2 {\n  color: #F85E5E !important; }\n\n.header {\n  height: 90vh;\n  overflow: hidden;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  background-color: #26344D; }\n  .header div {\n    max-width: 732px;\n    padding: 16px;\n    margin: auto; }\n  @media screen and (max-width: 500px) {\n    .header h1 {\n      font-family: \"Nunito\", sans-serif;\n      font-weight: 300;\n      font-size: 26px;\n      color: #FFFFFF;\n      text-align: center;\n      position: relative;\n      z-index: 1;\n      line-height: 38px; }\n    .header span {\n      font-weight: 700;\n      text-decoration: none;\n      color: #FFFFFF;\n      font-size: 26px; } }\n  @media screen and (min-width: 500px) {\n    .header h1 {\n      font-family: \"Nunito\", sans-serif;\n      font-weight: 300;\n      font-size: 40px;\n      color: #FFFFFF;\n      text-align: center;\n      position: relative;\n      z-index: 1;\n      line-height: 60px; }\n    .header span {\n      font-weight: 700;\n      text-decoration: none;\n      color: #FFFFFF;\n      font-size: 40px; } }\n  .header img {\n    position: absolute;\n    top: 3%;\n    left: 3%;\n    height: 80%; }\n\n.grillCase {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n  max-width: 984px;\n  margin: 16px auto;\n  box-sizing: border-box;\n  padding: 16px; }\n\n.dribbble {\n  display: flex;\n  max-width: 984px;\n  margin: 16px auto 32px auto;\n  justify-content: center;\n  box-sizing: border-box;\n  padding: 16px; }\n  .dribbble section {\n    max-width: 600px;\n    display: flex;\n    flex-direction: column; }\n    .dribbble section img {\n      width: 100px;\n      margin: 16px auto; }\n    .dribbble section span {\n      text-align: center;\n      font-size: 22px;\n      line-height: 28px; }\n\n.ref {\n  display: block;\n  max-width: 460px;\n  min-width: 288px;\n  margin-bottom: 48px; }\n  .ref h3 {\n    margin: 8px 0; }\n  .ref span {\n    text-transform: uppercase; }\n\n.job-title {\n  display: block;\n  font-size: 14px;\n  font-weight: 700;\n  line-height: 18px; }\n\n.job-skills {\n  display: block;\n  color: #838791;\n  font-size: 12px;\n  font-weight: 300;\n  line-height: 18px;\n  margin-bottom: 8px; }\n\n.footer {\n  width: 100%;\n  background-color: #26344D;\n  color: #FFFFFF; }\n  .footer h3 {\n    color: #FFFFFF; }\n  .footer div:first-child {\n    padding: 16px 0;\n    max-width: 984px;\n    margin: 0 auto;\n    display: flex;\n    flex-flow: wrap;\n    justify-content: space-between;\n    box-sizing: border-box;\n    padding: 16px; }\n  .footer div:last-child {\n    background-color: #212E45;\n    margin-top: 32px;\n    display: flex;\n    justify-content: space-between;\n    box-sizing: border-box;\n    padding: 16px; }\n    @media screen and (max-width: 500px) {\n      .footer div:last-child h3 {\n        display: none; } }\n    .footer div:last-child span {\n      color: #FFFFFF;\n      padding: 8px 0; }\n    .footer div:last-child a {\n      align-self: center; }\n\n.brand {\n  padding: 16px 0;\n  width: 288px; }\n  .brand h3 {\n    font-size: 22px;\n    margin-bottom: 8px; }\n  .brand span {\n    display: block;\n    color: #FFFFFF;\n    font-size: 12px;\n    font-weight: 300;\n    line-height: 18px;\n    text-transform: uppercase;\n    opacity: .5; }\n\n.body {\n  display: flex;\n  max-width: 984px;\n  margin: 32px auto;\n  justify-content: center;\n  box-sizing: border-box;\n  padding: 16px; }\n  .body section {\n    display: flex;\n    flex-direction: column;\n    max-width: 600px;\n    min-width: 288px;\n    justify-content: center; }\n    .body section h3 {\n      margin: 48px 0 16px 0; }\n    .body section img {\n      width: 288px;\n      margin: 24px auto; }\n    .body section li {\n      display: flex;\n      justify-content: space-between;\n      margin-bottom: 24px; }\n      .body section li span {\n        color: #838791;\n        font-weight: 300;\n        line-height: 24px; }\n      .body section li span:last-child {\n        text-align: right; }\n      .body section li b {\n        font-weight: 700; }\n\n.title-case {\n  display: flex;\n  justify-content: space-between;\n  margin: 16px auto 24px auto;\n  max-width: 984px;\n  box-sizing: border-box;\n  padding: 16px; }\n  .title-case div {\n    text-align: right; }\n\n.problem {\n  box-sizing: border-box;\n  padding: 0 16px; }\n  .problem section {\n    margin: -10px auto 32px auto; }\n  .problem div {\n    display: flex;\n    flex-direction: column;\n    max-width: 984px;\n    margin: 0 auto; }\n\n.situation {\n  background-color: #F3F3F3;\n  box-sizing: border-box;\n  padding: 32px 16px; }\n  .situation div {\n    max-width: 984px;\n    margin: 0 auto;\n    padding: 16px 0; }\n  .situation div:nth-child(2) {\n    display: flex;\n    justify-content: center; }\n    .situation div:nth-child(2) section {\n      margin: 8px; }\n  .situation img {\n    width: 100%; }\n  @media screen and (min-width: 700px) {\n    .situation h3 {\n      margin-bottom: 32px; }\n    .situation div:nth-child(2) {\n      flex-direction: row; } }\n  @media screen and (max-width: 700px) {\n    .situation h3 {\n      margin-bottom: 24px; }\n    .situation div:nth-child(2) {\n      flex-direction: column; }\n    .situation img {\n      height: 80px; } }\n\n.action {\n  box-sizing: border-box;\n  padding: 32px 16px; }\n  .action section {\n    margin: 16px auto 32px auto; }\n    .action section p {\n      margin-bottom: 16px; }\n  .action img {\n    width: 100%; }\n\n.card {\n  max-width: 600px;\n  padding: 32px;\n  background-color: #FFFFFF;\n  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);\n  border-radius: 4px; }\n  .card h3, .card h5 {\n    margin-bottom: 16px; }\n  .card h5 {\n    font-family: \"Nunito\", sans-serif;\n    font-size: 22px;\n    color: #4D5D80; }\n  .card span {\n    font-family: \"Nunito\", sans-serif;\n    font-size: 14px;\n    color: #838791;\n    line-height: 24px; }\n  .card p {\n    font-size: 22px;\n    line-height: 28px; }\n  .card b {\n    font-family: \"Permanent Marker\", cursive;\n    color: #F85E5E;\n    font-size: 26px; }\n  .card div {\n    font-family: \"Permanent Marker\", cursive;\n    font-size: 40px;\n    text-align: center;\n    color: #4D5D80;\n    margin: 16px 0; }\n\n.quote {\n  max-width: 600px;\n  margin: 0 auto;\n  text-align: center; }\n  .quote q {\n    font-family: \"Nunito\", sans-serif;\n    font-size: 22px;\n    font-weight: 300;\n    color: #26344D;\n    line-height: 32px; }\n    .quote q b {\n      font-weight: 400; }\n\n.other-work {\n  box-sizing: border-box;\n  padding: 0 16px; }\n  .other-work img:first-child {\n    margin: 48px 0;\n    width: 100%; }\n  .other-work div {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    max-width: 984px;\n    margin: 0 auto; }\n\n.background-grey {\n  background-color: #F3F3F3;\n  box-sizing: border-box;\n  padding: 32px 16px; }\n  .background-grey div {\n    max-width: 984px;\n    margin: 0 auto;\n    padding: 16px 0; }\n    .background-grey div section {\n      display: flex; }\n      .background-grey div section div {\n        max-width: 420px;\n        border-radius: 4px;\n        background-color: #FFFFFF;\n        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);\n        align-self: center;\n        justify: center;\n        padding: 0px;\n        overflow: hidden; }\n        .background-grey div section div img {\n          width: 100%; }\n    .background-grey div p {\n      text-align: center;\n      font-size: 14px; }\n    @media screen and (min-width: 700px) {\n      .background-grey div section {\n        flex-direction: row; }\n        .background-grey div section div {\n          margin: 32px 8px; } }\n    @media screen and (max-width: 700px) {\n      .background-grey div section {\n        flex-direction: column; }\n        .background-grey div section div {\n          margin: 16px 8px; }\n        .background-grey div section div:first-child {\n          margin-top: 32px; } }\n\n.adi-work {\n  margin: 32px 0;\n  display: flex;\n  flex-direction: column; }\n  .adi-work img {\n    width: 100%; }\n  .adi-work section {\n    height: 70px;\n    overflow: hidden;\n    position: relative;\n    display: flex;\n    justify-content: center;\n    margin-bottom: 8px; }\n    .adi-work section span:first-child {\n      font-family: \"Permanent Marker\", cursive;\n      font-size: 96px;\n      color: #CACBCC;\n      position: absolute;\n      top: -24%;\n      left: 48%; }\n    .adi-work section span:last-child {\n      align-self: center;\n      font-size: 22px;\n      font-weight: 300;\n      z-index: 1; }\n\n.adi-work:nth-of-type(3) img {\n  max-width: 280px;\n  align-self: center; }\n\n.ref figure {\n  position: relative;\n  overflow: hidden;\n  min-width: 288px;\n  max-width: 460px;\n  background: #26344D;\n  text-align: center;\n  cursor: pointer; }\n\n@media screen and (min-width: 500px) {\n  .ref figure {\n    max-height: 600px; }\n  figure.preview p {\n    font-size: 22px; } }\n\n@media screen and (max-width: 500px) {\n  .ref figure {\n    max-height: 300px; }\n  figure.preview p {\n    font-size: 14px; } }\n\n.ref figure .img-case {\n  position: relative;\n  display: block;\n  min-height: 100%;\n  max-width: 100%;\n  opacity: 0.8; }\n\n.ref figure figcaption {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  color: #FFFFFF;\n  backface-visibility: hidden; }\n\n.ref figure figcaption::before,\n.ref figure figcaption::after {\n  pointer-events: none; }\n\n.ref figure figcaption,\n.ref figure figcaption > a {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%; }\n\nfigure.preview {\n  background: #26344D; }\n\nfigure.preview .img-case {\n  opacity: 0.9;\n  transition: opacity 0.35s; }\n\nfigure.preview figcaption::before {\n  position: absolute;\n  top: 30px;\n  right: 30px;\n  bottom: 30px;\n  left: 30px;\n  border: 2px solid #fff;\n  box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);\n  content: '';\n  opacity: 0;\n  transition: opacity 0.35s, transform 0.35s;\n  transform: scale3d(1.4, 1.4, 1); }\n\n.logo-case {\n  transition: transform 0.35s; }\n\nfigure.preview p {\n  font-weight: 300;\n  padding: 0 48px;\n  line-height: 28px;\n  color: #FFFFFF;\n  opacity: 0;\n  transition: opacity 0.35s, transform 0.35s; }\n\nfigure.preview:hover .logo-case {\n  transform: translateY(-10px) scale(0.8);\n  opacity: .5; }\n\nfigure.preview:hover figcaption::before,\nfigure.preview:hover p {\n  opacity: 1;\n  transform: scale3d(1, 1, 1); }\n\nfigure.preview:hover figcaption {\n  background-color: rgba(58, 52, 42, 0); }\n\nfigure.preview:hover .img-case {\n  opacity: 0.4; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 48 */
+/* 52 */
 /***/ (function(module, exports) {
 
 /*
@@ -3493,30 +3535,6 @@ function toComment(sourceMap) {
 	return '/*# ' + data + ' */';
 }
 
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "1f7728bae747ef4715ac76788a38baff.jpg";
-
-/***/ }),
-/* 50 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "da1c8a44abbc8e99f598b50dd6e502b4.jpg";
-
-/***/ }),
-/* 51 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "2637420c40092ad43264ee99557b0a6f.jpg";
-
-/***/ }),
-/* 52 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "7fa32f4677fd0b9bbdc09e89e646c61d.jpg";
 
 /***/ }),
 /* 53 */
@@ -5441,7 +5459,7 @@ if (process.env.NODE_ENV === 'production') {
 /*
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
-var aa=__webpack_require__(0),l=__webpack_require__(26),B=__webpack_require__(8),C=__webpack_require__(5),ba=__webpack_require__(27),da=__webpack_require__(28),ea=__webpack_require__(29),fa=__webpack_require__(30),ia=__webpack_require__(31),D=__webpack_require__(13);
+var aa=__webpack_require__(0),l=__webpack_require__(30),B=__webpack_require__(8),C=__webpack_require__(5),ba=__webpack_require__(31),da=__webpack_require__(32),ea=__webpack_require__(33),fa=__webpack_require__(34),ia=__webpack_require__(35),D=__webpack_require__(13);
 function E(a){for(var b=arguments.length-1,c="Minified React error #"+a+"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\x3d"+a,d=0;d<b;d++)c+="\x26args[]\x3d"+encodeURIComponent(arguments[d+1]);b=Error(c+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.");b.name="Invariant Violation";b.framesToPop=1;throw b;}aa?void 0:E("227");
 var oa={children:!0,dangerouslySetInnerHTML:!0,defaultValue:!0,defaultChecked:!0,innerHTML:!0,suppressContentEditableWarning:!0,suppressHydrationWarning:!0,style:!0};function pa(a,b){return(a&b)===b}
 var ta={MUST_USE_PROPERTY:1,HAS_BOOLEAN_VALUE:4,HAS_NUMERIC_VALUE:8,HAS_POSITIVE_NUMERIC_VALUE:24,HAS_OVERLOADED_BOOLEAN_VALUE:32,HAS_STRING_BOOLEAN_VALUE:64,injectDOMPropertyConfig:function(a){var b=ta,c=a.Properties||{},d=a.DOMAttributeNamespaces||{},e=a.DOMAttributeNames||{};a=a.DOMMutationMethods||{};for(var f in c){ua.hasOwnProperty(f)?E("48",f):void 0;var g=f.toLowerCase(),h=c[f];g={attributeName:g,attributeNamespace:null,propertyName:f,mutationMethod:null,mustUseProperty:pa(h,b.MUST_USE_PROPERTY),
@@ -5741,14 +5759,14 @@ if (process.env.NODE_ENV !== "production") {
 var React = __webpack_require__(0);
 var invariant = __webpack_require__(10);
 var warning = __webpack_require__(14);
-var ExecutionEnvironment = __webpack_require__(26);
+var ExecutionEnvironment = __webpack_require__(30);
 var _assign = __webpack_require__(8);
 var emptyFunction = __webpack_require__(5);
-var EventListener = __webpack_require__(27);
-var getActiveElement = __webpack_require__(28);
-var shallowEqual = __webpack_require__(29);
-var containsNode = __webpack_require__(30);
-var focusNode = __webpack_require__(31);
+var EventListener = __webpack_require__(31);
+var getActiveElement = __webpack_require__(32);
+var shallowEqual = __webpack_require__(33);
+var containsNode = __webpack_require__(34);
+var focusNode = __webpack_require__(35);
 var emptyObject = __webpack_require__(13);
 var checkPropTypes = __webpack_require__(18);
 var hyphenateStyleName = __webpack_require__(62);
@@ -21985,7 +22003,7 @@ var _createTransitionManager = __webpack_require__(21);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
-var _DOMUtils = __webpack_require__(34);
+var _DOMUtils = __webpack_require__(38);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22362,7 +22380,7 @@ var _createTransitionManager = __webpack_require__(21);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
-var _DOMUtils = __webpack_require__(34);
+var _DOMUtils = __webpack_require__(38);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22670,7 +22688,7 @@ exports.default = createHashHistory;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(40);
 // Written in this round about way for babel-transform-imports
 
 
@@ -22861,8 +22879,8 @@ exports.default = createMemoryHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Route__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Route__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(39);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -23379,7 +23397,7 @@ module.exports = Array.isArray || function (arr) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(42);
 // Written in this round about way for babel-transform-imports
 
 
@@ -23390,7 +23408,7 @@ module.exports = Array.isArray || function (arr) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(43);
 // Written in this round about way for babel-transform-imports
 
 
@@ -23435,7 +23453,7 @@ module.exports = Array.isArray || function (arr) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(44);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23739,7 +23757,7 @@ var createBrowserHistory = function createBrowserHistory() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(44);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -24221,7 +24239,7 @@ var createMemoryHistory = function createMemoryHistory() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(45);
 // Written in this round about way for babel-transform-imports
 
 
@@ -24232,7 +24250,7 @@ var createMemoryHistory = function createMemoryHistory() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(46);
 // Written in this round about way for babel-transform-imports
 
 
@@ -24254,7 +24272,7 @@ var createMemoryHistory = function createMemoryHistory() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(47);
 // Written in this round about way for babel-transform-imports
 
 
@@ -24658,23 +24676,23 @@ module.exports = Menu;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MemoryRouter__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MemoryRouter__ = __webpack_require__(40);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Prompt__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Prompt__ = __webpack_require__(42);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_1__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Redirect__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Redirect__ = __webpack_require__(43);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_2__Redirect__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Route__ = __webpack_require__(23);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_3__Route__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(15);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_4__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__StaticRouter__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__StaticRouter__ = __webpack_require__(45);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_5__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Switch__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Switch__ = __webpack_require__(46);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_6__Switch__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__matchPath__ = __webpack_require__(16);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_7__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__withRouter__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__withRouter__ = __webpack_require__(47);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_8__withRouter__["a"]; });
 
 
@@ -24941,7 +24959,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var caseItems = [{ name: 'Auchan:Direct', job: 'creative technologist', skills: 'UX, UI, PROTOTYPES, INTERACTIONS, MOTION DESIGN', img: 1 }, { name: 'Carrefour Drive', job: 'UI/UX DESIGNER', skills: 'UX, UI, MICRO ANIMATIONS', img: 2 }, { name: 'Planet VO2', job: 'INTERACTION DESIGNER', skills: 'INTERACTIONS, PROTOTYPES, MOTION DESIGN', img: 3 }, { name: 'Groupama (studiant quotes)', job: 'Prototyper', skills: 'UI, INTERACTIONS, PROTOTYPES', img: 4 }];
+var caseItems = [{ name: 'Auchan:Direct', job: 'creative technologist', skills: 'UX, UI, PROTOTYPES, INTERACTIONS, MOTION DESIGN', baseline: 'Allow users to do their food shopping in less than 20 minutes.', img: 1 }, { name: 'Carrefour Drive', job: 'UI/UX DESIGNER', skills: 'UX, UI, MICRO ANIMATIONS', baseline: 'Work in progress...', img: 2 }, { name: 'Planet VO2', job: 'INTERACTION DESIGNER', skills: 'INTERACTIONS, PROTOTYPES, MOTION DESIGN', baseline: 'Coming soon...', img: 3 }, { name: 'Groupama (studiant quotes)', job: 'Prototyper', skills: 'UI, INTERACTIONS, PROTOTYPES', baseline: 'Coming soon...', img: 4 }];
 
 var Homepage = exports.Homepage = function (_React$Component) {
   _inherits(Homepage, _React$Component);
@@ -25018,6 +25036,7 @@ var Homepage = exports.Homepage = function (_React$Component) {
               titre: caseItem.name,
               titreJob: caseItem.job,
               sousTitre: caseItem.skills,
+              baseline: caseItem.baseline,
               img: caseItem.img
             });
           })
@@ -25089,63 +25108,18 @@ var PreviewCase = exports.PreviewCase = function (_React$Component) {
       }
     }
   }, {
-    key: "renderPreview",
-    value: function renderPreview(img) {
+    key: "renderImg",
+    value: function renderImg(img) {
       if (img === 1) {
-        return _react2.default.createElement(
-          "div",
-          { className: "prev-auchan" },
-          _react2.default.createElement(_image2.default, { img: img }),
-          _react2.default.createElement(
-            "p",
-            null,
-            "Allow users to do their food shopping in less than 20 minutes."
-          )
-        );
+        return 20;
       } else if (img === 2) {
-        return _react2.default.createElement(
-          "div",
-          { className: "prev-carrefour" },
-          _react2.default.createElement(_image2.default, { img: img }),
-          _react2.default.createElement(
-            "p",
-            null,
-            "Coming soon"
-          )
-        );
+        return 21;
       } else if (img === 3) {
-        return _react2.default.createElement(
-          "div",
-          { className: "prev-pvo" },
-          _react2.default.createElement(_image2.default, { img: img }),
-          _react2.default.createElement(
-            "p",
-            null,
-            "Coming soon"
-          )
-        );
+        return 23;
       } else if (img === 4) {
-        return _react2.default.createElement(
-          "div",
-          { className: "prev-groupama" },
-          _react2.default.createElement(_image2.default, { img: img }),
-          _react2.default.createElement(
-            "p",
-            null,
-            "Coming soon"
-          )
-        );
+        return 22;
       } else {
-        return _react2.default.createElement(
-          "div",
-          null,
-          _react2.default.createElement(_image2.default, { img: img }),
-          _react2.default.createElement(
-            "p",
-            null,
-            "Coming soon | work in progress"
-          )
-        );
+        return console.warn("caca dans previewcase component");
       }
     }
   }, {
@@ -25155,36 +25129,51 @@ var PreviewCase = exports.PreviewCase = function (_React$Component) {
           titre = _props.titre,
           sousTitre = _props.sousTitre,
           titreJob = _props.titreJob,
+          baseline = _props.baseline,
           img = _props.img;
 
       return _react2.default.createElement(
         "div",
         { className: "ref" },
         _react2.default.createElement(
+          "h3",
+          null,
+          " ",
+          titre,
+          " "
+        ),
+        _react2.default.createElement(
+          "span",
+          { className: "job-title" },
+          " ",
+          titreJob,
+          " "
+        ),
+        _react2.default.createElement(
+          "span",
+          { className: "job-skills" },
+          " ",
+          sousTitre,
+          " "
+        ),
+        _react2.default.createElement(
           _reactRouterDom.Link,
           { to: this.renderPath(img) },
           _react2.default.createElement(
-            "h3",
-            null,
-            " ",
-            titre,
-            " "
-          ),
-          _react2.default.createElement(
-            "span",
-            { className: "job-title" },
-            " ",
-            titreJob,
-            " "
-          ),
-          _react2.default.createElement(
-            "span",
-            { className: "job-skills" },
-            " ",
-            sousTitre,
-            " "
-          ),
-          this.renderPreview(img)
+            "figure",
+            { className: "preview" },
+            _react2.default.createElement(_image2.default, { className: "img-case", img: this.renderImg(img) }),
+            _react2.default.createElement(
+              "figcaption",
+              null,
+              _react2.default.createElement(_image2.default, { className: "logo-case", img: img }),
+              _react2.default.createElement(
+                "p",
+                null,
+                baseline
+              )
+            )
+          )
         )
       );
     }
@@ -26084,7 +26073,7 @@ var _deepEqual2 = _interopRequireDefault(_deepEqual);
 
 var _HelmetUtils = __webpack_require__(130);
 
-var _HelmetConstants = __webpack_require__(44);
+var _HelmetConstants = __webpack_require__(48);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26740,7 +26729,7 @@ var _objectAssign = __webpack_require__(8);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
-var _HelmetConstants = __webpack_require__(44);
+var _HelmetConstants = __webpack_require__(48);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
